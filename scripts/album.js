@@ -88,7 +88,6 @@ var setCurrentAlbum = function(album) {
                 var songItem = getSongItem(event.target);
                 var songItemNumber = songItem.getAttribute('data-song-number');
  
-                // #2
                 if (songItemNumber !== currentlyPlayingSong) {
                  songItem.innerHTML = songItemNumber;
              }
